@@ -102,14 +102,14 @@ window.onload = function () {
     if (allCardsFlipped && !countdownFinished) {
       clearInterval(countdown);
       countdownFinished = true;
+      congratulateUser(); // Show congratulatory message
     }
   }
-  
 
   function congratulateUser() {
-       alert("Congratulations! You've completed the game before the countdown ended! Click button the refresh");
+    // Replace this alert with your custom congratulatory message or UI display
+    alert("Congratulations! You've completed the game before the countdown ended! Click button to refresh");
   }
-  
   
 };
 
